@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "collage",
+    "formik-mui",
+    "mongo-backup"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "githubRelease": true,
+      "yes": true,
+      "message": "chore(release): publish %v"
+    }
+  }
+}
